@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+.Navbarr{
+  height: 70px;
+}
+.font{
+  font-family: 'Oswald', sans-serif;
+}
+.hove {
+  transition: all 0.6s ease;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -ms-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+}
+.hove:hover {
+  box-shadow: 0 -3px 0px rgb(118, 118, 118) inset,
+    400px 0 0 rgba(255, 255, 225, 0.03) inset;
+  padding: 7px 25px 15px 25px;
+}
+.Navbarr {
+  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1px solid rgba(136, 39, 39, 0.18);
+}
+/*  */
+.editUserDropdown{
+ transform: translateX(-10px);
+ width: 50px;
+ -webkit-transform: translateX(-10px);
+ -moz-transform: translateX(-10px);
+ -ms-transform: translateX(-10px);
+ -o-transform: translateX(-10px);
+}

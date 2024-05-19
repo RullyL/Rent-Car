@@ -1,0 +1,27 @@
+table {
+  border-collapse: collapse;
+}
+thead {
+  font-weight: bold;
+}
+tbody {
+  text-align: center;
+}
+th {
+  text-align: center;
+}
+.outTbody th {
+  text-align: center;
+}
+.sewaListDetail {
+  position: absolute;
+  z-index: 2;
+  top: 150px;
+  right: 145px;
+  text-align: center;
+  overflow: auto;
+  max-height: 400px;
+}
+.sewaListDetail table tr th{
+  border: none;
+}
